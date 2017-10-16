@@ -1,0 +1,57 @@
+
+.full-width{
+	width: 100%;
+	float: left;
+	background: white !important;
+}
+
+.full-width-above-canvas{
+	width: 100%;
+	float: left;
+	position: absolute;
+	top: 0;
+	z-index: 999999999;
+}
+
+.full-width-top{
+	width: 100%;
+	background: white !important;
+	position: absolute;
+	z-index: 9999999999;
+}
+
+.full-canvas{
+	width: 100%;
+	float: left;
+}
+
+.full-canvas h1, .full-canvas h2{
+	padding-top: 70px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1000px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.leaderboard{
+	height: 90px;
+}
+
+.container-half{
+	float: left;
+	width: 500px;
+	text-align: center;
+}
+
+h3 {
+   position: absolute;
+   bottom: 0px;
+   z-index: 111111111;
+   text-align: center;
+   width: 100%;
+}

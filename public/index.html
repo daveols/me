@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Dave Olsen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Press+Start+2P' media="all">
+    <link rel="shortcut icon" href="images/me-1.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" media="all">
+    <link rel="stylesheet" type="text/css" href="assets/css/home.css" media="all">
+</head>
+<body>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-68565003-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <div class="full-canvas">
+    <img id="face-source-0" src="images/me-1.png" width="170" height="170" alt=" " class="face-source">
+    <img id="face-source-1" src="images/me-2.png" width="170" height="170" alt=" " class="face-source">
+    <img id="face-source-2" src="images/me-1.png" width="170" height="170" alt=" " class="face-source">
+    <img id="face-source-3" src="images/me-2.png" width="170" height="170" alt=" " class="face-source">
+    <img id="face-source-4" src="images/me-1.png" width="170" height="170" alt=" " class="face-source">
+
+    <h1>Dave Olsen</h1>
+    <h2>The Official Homepage</h2>
+
+    <div id="faces-container"></div>
+
+    <audio id="audio-player" controls="controls" autoplay="autoplay">
+      <source id="audio-source" type="audio/mpeg" />
+    </audio>
+
+    <script type="text/javascript" src="assets/js/three.js"></script>
+    <script type="text/javascript" src="assets/js/faces.js"></script>
+    <script type="text/javascript">
+      window.onload = Faces.windowInit;
+    </script>
+    <center><h3><a href="http://github.com/daveols">github.com/daveols</a></h3></center>
+  </div>
+</body>
+</html>

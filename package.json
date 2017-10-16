@@ -1,0 +1,20 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "Dave Olsen's personal page",
+  "scripts": {
+    "start": "serve ./public --single"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveols/me.git"
+  },
+  "author": "Dave Olsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveols/me/issues"
+  },
+  "dependencies": {
+    "serve": "^6.2.0"
+  }
+}
